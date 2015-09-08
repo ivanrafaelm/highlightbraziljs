@@ -1,5 +1,20 @@
 # High Lights BrazilJS 2015
 
+## Get started
+
+Para rodar os exemplos execute no terminal
+
+```javascript
+npm install
+```
+e depois
+
+```javascript
+gulp watch
+```
+
+Assim todas vez que você salvar os arquivos /src/*.js javascript compilado aparecerá na pasta /dist/*.js
+
 ## Ecmascript-2015.js
 
 Com a evolução da internet e do modo que interagíamos, houve a necessidade de atualizarmos nossas ferramentas de trabalho, para poder evoluir e suprir as novas demandas dos usuários. 
@@ -57,6 +72,8 @@ Agora temos a opção de utilizar a variavel passada em uma função com uma val
 ## Links
 
 [Suporte do firefox ao Ecmascript 6](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Suporte_ao_ECMAScript_6_na_Mozilla)
+
 [Can I Use?](http://caniuse.com/)
+
 [BabelJS](https://babeljs.io/)
 
