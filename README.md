@@ -1,4 +1,4 @@
-# HighLights BrazilJS 2015
+# Highlights BrazilJS 2015
 
 ## Get started
 
