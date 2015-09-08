@@ -2,14 +2,14 @@
 
 ## Ecmascript-2015.js
 
-Com a evolução da internet e do modo que interagimos, houve a necessidade de atualizarmos nossas ferramentas de trabalho, para poder evoluir e suprir as novas demandas dos usuários. 
+Com a evolução da internet e do modo que interagíamos, houve a necessidade de atualizarmos nossas ferramentas de trabalho, para poder evoluir e suprir as novas demandas dos usuários. 
 
 E as expecificações do Ecmascript 6 já estão prontas para que o browsers possam utilizar. 
 Esse foi um dos assuntos mais comentados da BrazilJS de 2015. 
 
 A seguir vou dar uma pequena demostração das novidades da última atualização do javascript. 
 
-## JavaScript compiler
+## Babel JavaScript compiler
 
 Nem todas as features do ecm6 estão disponiveis hoje nos browsers, mas podemos utilizar um compiler para transformar essas novas features em ecm5 assim todos os browsers conseguem rodar o código sem erro.
 Vou usar o BabelJS um compiler muito utilizado e por grandes empresas como:
@@ -17,7 +17,7 @@ Vou usar o BabelJS um compiler muito utilizado e por grandes empresas como:
 - Spotify
 - Reddit
 - Atlassian
-- NFL
+- Facebook
 - PayPal
 - Mozilla
 
@@ -28,7 +28,7 @@ Para facilitar esse compiler vamos utilizar o gulp para fazer a build de ecmascr
 Estou utilizando o gulp-babel e o gulp-watch para que todas vez que eu salvar o arquivo ele é compilado em uma pasta de dist
 
 
-## let
+## Let
 
 let permite que você declare variáveis limitando seu escopo no bloco, instrução, ou em uma expressão na qual ela é usada. 
 
@@ -53,4 +53,10 @@ Diferente de functions, arrows compartilham o mesmo this no contexto em volta do
 ## Extend handling
 
 Agora temos a opção de utilizar a variavel passada em uma função com uma valor default. 
+
+## Links
+
+[Suporte do firefox ao Ecmascript 6](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Suporte_ao_ECMAScript_6_na_Mozilla)
+[Can I Use?](http://caniuse.com/)
+[BabelJS](https://babeljs.io/)
 
