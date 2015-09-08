@@ -77,3 +77,5 @@ Agora temos a opção de utilizar a variavel passada em uma função com uma val
 
 [BabelJS](https://babeljs.io/)
 
+[compat-table](http://kangax.github.io/compat-table/es6/)
+
