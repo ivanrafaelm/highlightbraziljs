@@ -1,3 +1,7 @@
+/*
+	Class
+*/
+
 class Person {
     constructor(options) {
         this.name = options.name
@@ -14,4 +18,4 @@ var options = {
 };
 
 var p = new Person(options);
-console.log(p)
+console.log(p);

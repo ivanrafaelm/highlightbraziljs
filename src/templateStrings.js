@@ -1,3 +1,7 @@
+/*
+	Template Strings
+*/
+
 var customer = { name: 'Foo' }
 var card = { amount: 7, product: 'Bar', unitprice: 42 }
 
