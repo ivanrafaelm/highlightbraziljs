@@ -1,16 +1,16 @@
-# High Lights BrazilJS 2015
+# HighLights BrazilJS 2015
 
 ## Get started
 
 Para rodar os exemplos execute no terminal
 
 ```javascript
-npm install
+$ npm install
 ```
 e depois
 
 ```javascript
-gulp watch
+$ gulp watch
 ```
 
 Assim todas vez que você salvar os arquivos /src/*.js javascript compilado aparecerá na pasta /dist/*.js
